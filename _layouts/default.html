@@ -17,11 +17,6 @@
         {% if site.logo %}
           <a href="{{ "" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
-      </header>
-      <section>
-        <h1>{{ site.home_page_title }}</h1>
-        <h4>{{ site.home_page_text }}</h4>
-        <p>{{ site.home_page_description }}</p>
         <p>
           <ul class="downloads">
             <li><a href="https://twitter.com/{{ site.twitter.username }}">Umut On <strong>Twitter</strong></a></li>
@@ -29,6 +24,11 @@
             <li><a href="{{ site.github.owner_url }}">Umut On <strong>GitHub</strong></a></li>
           </ul>
         </p>
+      </header>
+      <section>
+        <h1>{{ site.home_page_title }}</h1>
+        <h4>{{ site.home_page_text }}</h4>
+        <p>{{ site.home_page_description }}</p>
         <hr>
         <p>
           <h3>Articles</h3>
