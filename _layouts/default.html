@@ -39,16 +39,13 @@
         <h4>{{ site.home_page_text }}</h4>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <ul class="downloads">
-          <li><a href="">View On <strong>Twitter</strong></a></li>
-          <li><a href="">View On <strong>Linkedin</strong></a></li>
-          <li><a href="">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://twitter.com/{{ site.twitter_username }}">View On <strong>Twitter</strong></a></li>
+          <li><a href="{{ site.linkedin_url }}" target="_blank">View On <strong>Linkedin</strong></a></li>
+          <li><a href="{{ site.github.owner_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {{ content }}
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
