@@ -44,6 +44,15 @@
         </p>
         <hr>
         <p>
+          <h3>Opensource Projects</h3>
+          <ul>
+            {% for repository in site.github.public_repositories %}
+            <li><a href="repository.html_url" target="_blank">{{ repository.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </p>
+        <hr>
+        <p>
           <blockquote>          
           <p>
             "There are two kinds of people: one, the one who teaches; other, the one who learns. Choose whichever you want to be. Tell me clearly. Be one of them and avoid the third."
