@@ -44,11 +44,15 @@
         </p>
         <hr>
         <p>
-          <h3>Opensource Projects</h3>
+          <h3>Contributions</h3>
           <ul>
             {% for repository in site.github.public_repositories %}
             {% if repository.fork %}
-            <li><a href="{{ repository.html_url }}" target="_blank">{{ repository.name }}</a></li>
+            <li>
+              <a href="{{ repository.html_url }}" target="_blank">
+                {{ repository.name }} from {{ repository.parent.full_name }}
+              </a>
+            </li>
             {% endif %}
             {% endfor %}
           </ul>
