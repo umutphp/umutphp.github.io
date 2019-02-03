@@ -50,7 +50,7 @@
             {% if repository.fork %}
             <li>
               <a href="{{ repository.html_url }}" target="_blank">
-                {{ repository.name }} from {{ repository.parent.full_name }}
+                {{ repository.name }} from {{ repository.source.full_name }}
               </a>
             </li>
             {% endif %}
