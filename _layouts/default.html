@@ -46,7 +46,7 @@
         <p>
           <h3>Opensource Projects</h3>
           {% for repository in site.github.public_repositories %}
-            {% if repository.name = 'wp-vulnerability-check' %}
+            {% if repository.name == "wp-vulnerability-check" %}
             <li>
               <a href="{{ repository.html_url }}" target="_blank">
                 {{ repository.name }}
