@@ -22,12 +22,16 @@
         <h1>{{ site.home_page_title }}</h1>
         <h4>{{ site.home_page_text }}</h4>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <ul class="downloads">
-          <li><a href="https://twitter.com/{{ site.twitter_username }}">View On <strong>Twitter</strong></a></li>
-          <li><a href="{{ site.linkedin_url }}" target="_blank">View On <strong>Linkedin</strong></a></li>
-          <li><a href="{{ site.github.owner_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        <blockquote>          
+        <p>
+          <ul class="downloads">
+            <li><a href="https://twitter.com/{{ site.twitter_username }}">View On <strong>Twitter</strong></a></li>
+            <li><a href="{{ site.linkedin_url }}" target="_blank">View On <strong>Linkedin</strong></a></li>
+            <li><a href="{{ site.github.owner_url }}">View On <strong>GitHub</strong></a></li>
+          </ul>
+        </p>
+        <hr>
+        <p>
+          <blockquote>          
           <p>
             "There are two kinds of people: one, the one who teaches; other, the one who learns. Choose whichever you want to be. Tell me clearly. Be one of them and avoid the third."
           </p>
@@ -35,6 +39,7 @@
             Yusuf Has Hacib in his ancient book Kutadgu Bilig.
           </p>
         </blockquote>
+        </p>
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
