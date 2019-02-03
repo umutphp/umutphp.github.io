@@ -23,7 +23,9 @@ home_page_description: >- # this means to ignore newlines until "baseurl:"
   I spent 18 years pursuing a career on software development including e-commerce sites, content management systems, product information management systems, news portals, dating sites, learning management systems and corporate multi-layer web applications.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://umutphp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: umutphp
+twitter:
+  username: umutphp
+  card: summary
 github_username:  umutphp
 linkedin_url: https://www.linkedin.com/in/isikumut/
 
