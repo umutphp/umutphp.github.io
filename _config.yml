@@ -23,7 +23,7 @@ home_page_text: I am a principle developer and currently working as a delivery m
 home_page_description: >- # this means to ignore newlines until "baseurl:"
   I spent 18 years pursuing a career on software development including e-commerce sites, content management systems, product information management systems, news portals, dating sites, learning management systems and corporate multi-layer web applications.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://umutphp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://umuts.info/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: umutphp
   card: summary
@@ -57,6 +57,18 @@ landing:
         - title: PHP Güvenlik El Kitabı (Deprecated)
           description: Founded in January 2005, <a href="http://phpsec.org/" target="_blank">the PHP Security Consortium (PHPSC)</a> is an international group of PHP experts dedicated to promoting secure programming practices within the PHP community. But It is not active for years.
           url: https://phpguvenlik.wordpress.com/
+    - id: community-contributions
+      title: Community Contributions
+      contents:
+        - title: Continuous Integration
+          description: I have performed a session about continuous integration and shared my experience with the audience.
+          url: https://www.meetup.com/Software-Craftsmanship-Turkey/events/253854621/
+        - title: Global Day of Coderetreat (GDCR14) Facilitator
+          description: Coderetreats are run by volunteers who want to help out their local developer community. 
+          url: https://www.coderetreat.org/
+        - title: Global Day of Coderetreat (GDCR17) Facilitator
+          description: Coderetreat is a volunteer-based, globally coordinated effort to improve software developer's skills.
+          url: https://www.coderetreat.org/
 
 # Build settings
 markdown: kramdown

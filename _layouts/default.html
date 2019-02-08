@@ -18,7 +18,7 @@
         {% if site.profile_logo %}
           <a href="{{ "" | absolute_url }}"><img src="{{site.profile_logo | relative_url}}" alt="Profile Logo" /></a>
         {% endif %}
-        <p>
+        <p id="follow-me">
           <h3>Follow Me</h3>
           <ul class="downloads">
             <li><a href="https://twitter.com/{{ site.twitter.username }}" target="_blank">At <strong>Twitter</strong></a></li>
@@ -31,7 +31,7 @@
           <a href="https://github.com/umutphp/logo" target="_blank"><img src="{{site.logo | relative_url}}" alt="Site Logo" width="32" height="32" alt="UmutPHP's awesome logo" /></a>
         {% endif %}
       </header>
-      <section>
+      <section id="body">
         <h1>{{ site.home_page_title }}</h1>
         <h4>{{ site.home_page_text }}</h4>
         <p>{{ site.home_page_description }}</p>
@@ -52,7 +52,7 @@
         </div>
         <hr>
         {% endfor %}
-        <p>
+        <div id="opensource-projects">
           <h3>Opensource Projects</h3>
           <ul>
           {% for repository in site.github.public_repositories %}
@@ -65,9 +65,9 @@
             {% endif %}
           {% endfor %}
           </ul>
-        </p>
+        </div>
         <hr>
-        <p>
+        <div id="contributions">
           <h3>Contributions</h3>
           <ul>
             {% for repository in site.github.public_repositories %}
