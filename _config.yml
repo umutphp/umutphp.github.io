@@ -76,6 +76,19 @@ landing:
         - title: Global Day of Coderetreat (GDCR17) Facilitator
           description: Coderetreat is a volunteer-based, globally coordinated effort to improve software developer's skills.
           url: https://www.coderetreat.org/
+        - title: Functional Programming In PHP
+          description: The talk is about functional programming basics and implementations of this basics on PHP.
+          url: https://www.meetup.com/IstanbulPHP/events/225433639/
+        - title: Introduction To Web Development With PHP
+          description: <a href="https://ab.org.tr/" target="_blank">Akademik Bilişim</a> <a href="https://ab.org.tr/ab11/" target="_blank">AB2011</a> İnönü University, Malatya
+          url: https://ab.org.tr/ab11/ozet/32.html
+        - title: Introduction To PHP
+          description: Introduction to Web Development With PHP within the organization of <a href="http://inetd.org.tr/" target="_blank">INETD</a>
+          url: http://inetd.org.tr/
+        - title: PHP And PEAR
+          description: The seminar was about what is and what provided by the PEAR library in IBM Linux Center.
+        - title: PHP And PEAR
+          description: The seminar is held within the organisation of [Turkish Linux Users Association](LKD http://www.lkd.org.tr/).
 
 # Build settings
 markdown: kramdown
