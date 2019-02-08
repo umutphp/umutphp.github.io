@@ -35,18 +35,25 @@ landing:
       title: Articles
       contents:
         - title: A Talk About Mentorship
+          description: This a very subjective talk about mentorship which is generally considered as a part of in-company training.
           url: https://www.linkedin.com/pulse/talk-mentorship-umut-i%C5%9Fik/
         - title: Setting Up a CI For Your Project
+          description: In this article, I will share my recent experience in creating a CI pipeline from scratch for a web application managed by a medium sized development team.
           url: https://www.linkedin.com/pulse/setting-up-ci-your-project-umut-i%C5%9Fik/
         - title: Infinite Loop Of Learning
+          description: We are in an infinite loop of evolution; technologies, people, requirements, concepts and everything that structures the software industry evolves.
           url: https://www.linkedin.com/pulse/infinite-loop-learning-umut-i%C5%9Fik/
         - title: Peaceful Workplace
+          description: According to my personal work experience, I can say that those corporate weapons have temporary affect unless the team feels the ultimate peace in the workplace. 
           url: https://www.linkedin.com/pulse/peaceful-workplace-umut-i%C5%9Fik/
         - title: Working At Westeros
+          description: I tried to imagine how the noble houses would be if we work at Westeros.
           url: https://www.linkedin.com/pulse/working-westeros-umut-i%C5%9Fik/
         - title: Self Learning Teams
+          description: We should be agile in learning as we are already agile in development.
           url: https://www.linkedin.com/pulse/self-learning-teams-umut-i%C5%9Fik/
         - title: Code Kata Sessions For Developers
+          description: Kata is basically about repeating the techniques of an art or study in a disciplined way. 
           url: https://www.linkedin.com/pulse/code-kata-sessions-developers-umut-i%C5%9Fik/
     - id: translations
       title: Translations
