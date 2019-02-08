@@ -14,8 +14,8 @@
   <body>
     <div class="wrapper">
       <header>        
-        {% if site.logo %}
-          <a href="{{ "" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
+        {% if site.profile_logo %}
+          <a href="{{ "" | absolute_url }}"><img src="{{profile_logo | relative_url}}" alt="Profile Logo" /></a>
         {% endif %}
         <p>
           <ul class="downloads">
@@ -24,6 +24,9 @@
             <li><a href="{{ site.github.owner_url }}" target="_blank">Me At <strong>GitHub</strong></a></li>
           </ul>
         </p>
+        {% if site.logo %}
+          <a href="{{ "" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Site Logo" /></a>
+        {% endif %}
       </header>
       <section>
         <h1>{{ site.home_page_title }}</h1>
