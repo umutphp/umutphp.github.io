@@ -44,7 +44,7 @@
             <li>
               <a href="{{ content.url }}">{{ content.title }}</a>
               {% if content.description %}
-              : {{ section.description }}
+              : {{ content.description }}
               {% endif %}
             </li>
           {% endfor %}
@@ -52,19 +52,6 @@
         </div>
         <hr>
         {% endfor %}
-        <p>
-          <h3>Articles</h3>
-          <ul>
-            <li><a href="https://www.linkedin.com/pulse/talk-mentorship-umut-i%C5%9Fik/" target="_blank">A Talk About Mentorship</a></li>
-            <li><a href="https://www.linkedin.com/pulse/setting-up-ci-your-project-umut-i%C5%9Fik/" target="_blank">Setting Up a CI For Your Project</a></li>
-            <li><a href="https://www.linkedin.com/pulse/infinite-loop-learning-umut-i%C5%9Fik/" target="_blank">Infinite Loop Of Learning</a></li>
-            <li><a href="https://www.linkedin.com/pulse/peaceful-workplace-umut-i%C5%9Fik/" target="_blank">Peaceful Workplace</a></li>
-            <li><a href="https://www.linkedin.com/pulse/working-westeros-umut-i%C5%9Fik/" target="_blank">Working At Westeros</a></li>
-            <li><a href="https://www.linkedin.com/pulse/self-learning-teams-umut-i%C5%9Fik/" target="_blank">Self Learning Teams</a></li>
-            <li><a href="https://www.linkedin.com/pulse/code-kata-sessions-developers-umut-i%C5%9Fik/" target="_blank">Code Kata Sessions For Developers</a></li>
-          </ul>
-        </p>
-        <hr>
         <p>
           <h3>Opensource Projects</h3>
           <ul>
@@ -77,14 +64,6 @@
             </li>
             {% endif %}
           {% endfor %}
-          </ul>
-        </p>
-        <hr>
-        <p>
-          <h3>Translations</h3>
-          <ul>
-            <li><a href="http://www.phpthewrongway.com/tr/" target="_blank">PHP - Galat-ı Meşhur (PHP The Wrong Way)</a>: Turkish translation of the website <a href="http://www.phpthewrongway.com/" target="_blank">http://www.phpthewrongway.com/</a> which has been created in an attempt to present a pragmatic view on PHP programming. A view dictated by experience and practical consequence rather than popular trends, theory, or academic dogma.</li>
-            <li><a href="https://phpguvenlik.wordpress.com/" target="_blank">PHP Güvenlik El Kitabı (Deprecated)</a>: Founded in January 2005, the PHP Security Consortium (PHPSC) is an international group of PHP experts dedicated to promoting secure programming practices within the PHP community. But It is not active for years.</li>
           </ul>
         </p>
         <hr>
