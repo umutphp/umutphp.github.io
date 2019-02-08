@@ -36,6 +36,22 @@
         <h4>{{ site.home_page_text }}</h4>
         <p>{{ site.home_page_description }}</p>
         <hr>
+        {% for section in site.landing.sections %}
+        <div id="{{ section.id }}">
+          <h3>{{ section.title }}</h3>
+          <ul>
+          {% for content in section.contents %}
+            <li>
+              <a href="{{ content.url }}">{{ content.title }}</a>
+              {% if content.description %}
+              : {{ section.description }
+              {% endif %}
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+        <hr>
+        {% endfor %}
         <p>
           <h3>Articles</h3>
           <ul>
