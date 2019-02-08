@@ -29,6 +29,34 @@ twitter:
   card: summary
 github_username:  umutphp
 linkedin_url: https://www.linkedin.com/in/isikumut/
+landing:
+  sections:
+    - id: articles
+      title: Articles
+      contents:
+        - title: A Talk About Mentorship
+          url: https://www.linkedin.com/pulse/talk-mentorship-umut-i%C5%9Fik/
+        - title: Setting Up a CI For Your Project
+          url: https://www.linkedin.com/pulse/setting-up-ci-your-project-umut-i%C5%9Fik/
+        - title: Infinite Loop Of Learning
+          url: https://www.linkedin.com/pulse/infinite-loop-learning-umut-i%C5%9Fik/
+        - title: Peaceful Workplace
+          url: https://www.linkedin.com/pulse/peaceful-workplace-umut-i%C5%9Fik/
+        - title: Working At Westeros
+          url: https://www.linkedin.com/pulse/working-westeros-umut-i%C5%9Fik/
+        - title: Self Learning Teams
+          url: https://www.linkedin.com/pulse/self-learning-teams-umut-i%C5%9Fik/
+        - title: Code Kata Sessions For Developers
+          url: https://www.linkedin.com/pulse/code-kata-sessions-developers-umut-i%C5%9Fik/
+    - id: translations
+      title: Translations
+      contents:
+        - title: PHP - Galat-ı Meşhur (PHP The Wrong Way)
+          description: Turkish translation of the website <a href="http://www.phpthewrongway.com/" target="_blank">http://www.phpthewrongway.com/</a> which has been created in an attempt to present a pragmatic view on PHP programming. A view dictated by experience and practical consequence rather than popular trends, theory, or academic dogma.
+          url: http://www.phpthewrongway.com/tr/
+        - title: PHP Güvenlik El Kitabı (Deprecated)
+          description: Founded in January 2005, <a href="http://phpsec.org/" target="_blank">the PHP Security Consortium (PHPSC)</a> is an international group of PHP experts dedicated to promoting secure programming practices within the PHP community. But It is not active for years.
+          url: https://phpguvenlik.wordpress.com/
 
 # Build settings
 markdown: kramdown
