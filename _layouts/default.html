@@ -19,7 +19,6 @@
           <a href="{{ "" | absolute_url }}"><img src="{{site.profile_logo | relative_url}}" alt="Profile Logo" /></a>
         {% endif %}
         <p id="follow-me">
-          <h3>Follow Me</h3>
           <ul class="downloads">
             <li><a href="https://twitter.com/{{ site.twitter.username }}" target="_blank">At <strong>Twitter</strong></a></li>
             <li><a href="{{ site.linkedin_url }}" target="_blank">At <strong>Linkedin</strong></a></li>
@@ -28,7 +27,9 @@
           <hr>
         </p>
         {% if site.logo %}
-          <a href="https://github.com/umutphp/logo" target="_blank"><img src="{{site.logo | relative_url}}" alt="Site Logo" width="32" height="32" alt="UmutPHP's awesome logo" /></a>
+          <p id="awesome-logo" style="text-align: right;">
+            <a href="https://github.com/umutphp/logo" target="_blank"><img src="{{site.logo | relative_url}}" alt="Site Logo" width="32" height="32" alt="UmutPHP's awesome logo" /></a>
+          </p>
         {% endif %}
       </header>
       <section id="body">
