@@ -61,6 +61,9 @@ landing:
         - title: PHP - Galat-ı Meşhur (PHP The Wrong Way)
           description: Turkish translation of the website <a href="http://www.phpthewrongway.com/" target="_blank">http://www.phpthewrongway.com/</a> which has been created in an attempt to present a pragmatic view on PHP programming. A view dictated by experience and practical consequence rather than popular trends, theory, or academic dogma.
           url: http://www.phpthewrongway.com/tr/
+        - title: "PHP: Usulüne Uygun"
+          description: "Turkish translation of [PHP: The Right Way](https://www.phptherightway.com) which is an easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative tutorials around the Web."
+          url: https://kulekci.net/php-the-right-way
         - title: PHP Güvenlik El Kitabı (Deprecated)
           description: Founded in January 2005, <a href="http://phpsec.org/" target="_blank">the PHP Security Consortium (PHPSC)</a> is an international group of PHP experts dedicated to promoting secure programming practices within the PHP community. But It is not active for years.
           url: https://phpguvenlik.wordpress.com/
