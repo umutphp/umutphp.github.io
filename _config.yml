@@ -33,7 +33,7 @@ landing:
   sections:
     - id: articles
       title: Articles
-      descript: I try to write articles to share my experience with others. I believe that sharing  is a good use of my time as a developer.
+      description: I try to write articles to share my experience with others. I believe that sharing  is a good use of my time as a developer.
       contents:
         - title: A Talk About Mentorship
           description: This a very subjective talk about mentorship which is generally considered as a part of in-company training.
