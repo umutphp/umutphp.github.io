@@ -38,8 +38,11 @@
         <p>{{ site.home_page_description }}</p>
         <hr>
         {% for section in site.landing.sections %}
-        <div id="{{ section.id }}">
+        <div id="section-{{ section.id }}">
           <h3>{{ section.title }}</h3>
+          {% if section.description %}
+          <p id="section-description-{{ section.id }}">{{ section.description }}</p>
+          {% endif %}
           <ul>
           {% for content in section.contents %}
             <li>
