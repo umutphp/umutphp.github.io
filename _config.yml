@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Umut Işık
-description: principle developer, software development, open source, Linux, PHP
+description: software development, open source, Linux, PHP, CI
 logo: assets/img/logo_darkblue.png
 profile_logo: assets/img/profile_logo.jpeg
 email: umutphp@gmail.com
