@@ -24,7 +24,7 @@ home_page_text: I am a principle developer and currently working as a delivery m
 home_page_description: >- # this means to ignore newlines until "baseurl:"
   I spent 18 years pursuing a career on software development including e-commerce sites, content management systems, product information management systems, news portals, dating sites, learning management systems and corporate multi-layer web applications.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://umuts.info/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://umuts.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: umutphp
   card: summary
