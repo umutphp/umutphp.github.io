@@ -94,9 +94,10 @@
         <p><hr></p>
         {% if site.logo %}
         <p id="awesome-logo" style="text-align: right;">
-          <small>My awesome logo </small><a href="https://github.com/umutphp/logo" target="_blank"><img src="{{site.logo | relative_url}}" alt="Site Logo" width="24" height="24" alt="UmutPHP's awesome logo" /></a>
+          <a href="https://github.com/umutphp/logo" target="_blank">
+            <img src="{{site.logo | relative_url}}" width="24" height="24" alt="UmutPHP's awesome logo" />
+          </a>
         </p>
-        <p><hr></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </section>
