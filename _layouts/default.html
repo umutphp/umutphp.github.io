@@ -37,6 +37,7 @@
           {% if section.description %}
           <p id="section-description-{{ section.id }}">{{ section.description }}</p>
           {% endif %}
+          {% if section.layout == "list" %}
           <ul>
           {% for content in section.contents %}
             <li>
@@ -50,6 +51,22 @@
             </li>
           {% endfor %}
           </ul>
+          {% endif %}
+          {% if section.layout == "table" %}
+          <table>
+            <tr>
+              <td style="text-align: left"><a href="{{ content.url }}">{{ content.title }}</a></td>
+              <td style="text-align: left">
+              {% if content.description %}
+              {{ content.description }}
+              {% endif %}
+              {% if content.date %}
+              <br><small>On {{ content.date }}</small>
+              {% endif %}
+              </td>
+            </tr>
+          </table>
+          {% endif %}
         </div>
         <hr>
         {% endfor %}
