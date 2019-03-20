@@ -34,30 +34,39 @@ landing:
   sections:
     - id: articles
       title: Articles
+      layout: list
       contents:
         - title: A Talk About Mentorship
           description: This a very subjective talk about mentorship which is generally considered as a part of in-company training.
           url: https://www.linkedin.com/pulse/talk-mentorship-umut-i%C5%9Fik/
+          date: October 17, 2018
         - title: Setting Up a CI For Your Project
           description: In this article, I will share my recent experience in creating a CI pipeline from scratch for a web application managed by a medium sized development team.
           url: https://www.linkedin.com/pulse/setting-up-ci-your-project-umut-i%C5%9Fik/
+          date: September 9, 2018
         - title: Infinite Loop Of Learning
           description: We are in an infinite loop of evolution; technologies, people, requirements, concepts and everything that structures the software industry evolves.
           url: https://www.linkedin.com/pulse/infinite-loop-learning-umut-i%C5%9Fik/
+          date: June 1, 2017
         - title: Peaceful Workplace
           description: According to my personal work experience, I can say that those corporate weapons have temporary affect unless the team feels the ultimate peace in the workplace. 
           url: https://www.linkedin.com/pulse/peaceful-workplace-umut-i%C5%9Fik/
+          date: April 9, 2017
         - title: Working At Westeros
           description: I tried to imagine how the noble houses would be if we work at Westeros.
           url: https://www.linkedin.com/pulse/working-westeros-umut-i%C5%9Fik/
+          date: February 9, 2015
         - title: Self Learning Teams
           description: We should be agile in learning as we are already agile in development.
           url: https://www.linkedin.com/pulse/self-learning-teams-umut-i%C5%9Fik/
+          date: January 26, 2015
         - title: Code Kata Sessions For Developers
           description: Kata is basically about repeating the techniques of an art or study in a disciplined way. 
           url: https://www.linkedin.com/pulse/code-kata-sessions-developers-umut-i%C5%9Fik/
+          date: January 19, 2015
     - id: translations
       title: Translations
+      layout: table
       contents:
         - title: PHP - Galat-ı Meşhur (PHP The Wrong Way)
           description: Turkish translation of the website <a href="http://www.phpthewrongway.com/" target="_blank">http://www.phpthewrongway.com/</a> which has been created in an attempt to present a pragmatic view on PHP programming. A view dictated by experience and practical consequence rather than popular trends, theory, or academic dogma.
@@ -70,22 +79,28 @@ landing:
           url: https://phpguvenlik.wordpress.com/
     - id: community-contributions
       title: Community Contributions
+      layout: list
       contents:
         - title: Continuous Integration
           description: I have performed a session about continuous integration and shared my experience with the audience.
           url: https://www.meetup.com/Software-Craftsmanship-Turkey/events/253854621/
+          date: December 26, 2018
         - title: Global Day of Coderetreat (GDCR14) Facilitator
           description: Coderetreats are run by volunteers who want to help out their local developer community. 
           url: https://www.coderetreat.org/
+          date: October 12, 2014
         - title: Global Day of Coderetreat (GDCR17) Facilitator
           description: Coderetreat is a volunteer-based, globally coordinated effort to improve software developer's skills.
           url: https://www.coderetreat.org/
+          date: November 18, 2017
         - title: Functional Programming In PHP
           description: The talk is about functional programming basics and implementations of this basics on PHP.
           url: https://www.meetup.com/IstanbulPHP/events/225433639/
+          date: Novomber 21, 2015
         - title: Introduction To Web Development With PHP
           description: <a href="https://ab.org.tr/" target="_blank">Akademik Bilişim</a> <a href="https://ab.org.tr/ab11/" target="_blank">AB2011</a> İnönü University, Malatya
           url: https://ab.org.tr/ab11/ozet/32.html
+          date: February 2 to 4, 2011
         - title: Introduction To PHP
           description: Introduction to Web Development With PHP within the organization of <a href="http://inetd.org.tr/" target="_blank">INETD</a>
           url: http://inetd.org.tr/
