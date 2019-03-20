@@ -41,6 +41,9 @@
           {% for content in section.contents %}
             <li>
               <a href="{{ content.url }}">{{ content.title }}</a>
+              {% if content.date %}
+              On {{ content.date }}
+              {% endif %}
               {% if content.description %}
               : {{ content.description }}
               {% endif %}
