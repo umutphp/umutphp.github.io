@@ -41,11 +41,11 @@
           {% for content in section.contents %}
             <li>
               <a href="{{ content.url }}">{{ content.title }}</a>
-              {% if content.date %}
-              On {{ content.date }}
-              {% endif %}
               {% if content.description %}
               : {{ content.description }}
+              {% endif %}
+              {% if content.date %}
+              <br><h6>On {{ content.date }}</h6>
               {% endif %}
             </li>
           {% endfor %}
