@@ -32,6 +32,28 @@ github_username:  umutphp
 linkedin_url: https://www.linkedin.com/in/isikumut/
 landing:
   sections:
+    - id: experience
+      title: Experience
+      layout: table
+      contents:
+        - title: "Nov 2018 - Present"
+          description: Delivery Manager
+          url: https://www.linkedin.com/in/isikumut/
+        - title: "Apr 2016 – Nov 2018"
+          description: PHP Sub-Competency Lead
+          url: https://www.linkedin.com/in/isikumut/
+        - title: "May 2012 – Apr 2016"
+          description: "Technical Architect"
+          url: https://www.linkedin.com/in/isikumut/
+        - title: "Jun 2007 – May 2012"
+          description: "Senior PHP Developer"
+          url: https://www.linkedin.com/in/isikumut/
+        - title: "Apr 2006 - May 2007"
+          description: "Senior PHP Developer"
+          url: https://www.linkedin.com/in/isikumut/
+        - title: "Jan 2002 - Oct 2004"
+          description: "Junior PHP Developer"
+          url: https://www.linkedin.com/in/isikumut/
     - id: articles
       title: Articles
       layout: list
@@ -79,7 +101,7 @@ landing:
           url: https://phpguvenlik.wordpress.com/
     - id: community-contributions
       title: Community Contributions
-      layout: table
+      layout: list
       contents:
         - title: Continuous Integration
           description: I have performed a session about continuous integration and shared my experience with the audience.
