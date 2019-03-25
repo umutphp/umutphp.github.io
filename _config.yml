@@ -36,22 +36,25 @@ landing:
       title: Experience
       layout: table
       contents:
-        - description: "Nov 2018 - Present"
-          title: Delivery Manager
+        - description: "Nov 2018 - Present, at Sony"
+          title: "Delivery Manager At Sony"
           url: https://www.linkedin.com/in/isikumut/
-        - description: "Apr 2016 – Nov 2018"
-          title: PHP Sub-Competency Lead
+        - description: "Apr 2016 – Nov 2018, at Sony"
+          title: "PHP Sub-Competency Lead at Sony"
           url: https://www.linkedin.com/in/isikumut/
-        - description: "May 2012 – Apr 2016"
-          title: "Technical Architect"
+        - description: "May 2012 – Apr 2016, at Sony"
+          title: "Technical Architect At Sony"
           url: https://www.linkedin.com/in/isikumut/
-        - description: "Jun 2007 – May 2012"
+        - description: "Jun 2007 – May 2012, at Sony"
           title: "Senior PHP Developer"
           url: https://www.linkedin.com/in/isikumut/
-        - description: "Apr 2006 - May 2007"
-          title: "Senior PHP Developer"
+        - description: Apr 2006 - May 2007, at Magnetdigital
+          title: Senior PHP Developer
           url: https://www.linkedin.com/in/isikumut/
-        - description: "Jan 2002 - Oct 2004"
+        - description: ""
+          title: "Military Service"
+          url: https://www.tsk.tr/
+        - description: "Jan 2002 - Oct 2004, at Forsnet"
           title: "Junior PHP Developer"
           url: https://www.linkedin.com/in/isikumut/
     - id: articles
