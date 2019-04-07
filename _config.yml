@@ -20,7 +20,7 @@ profile_logo: assets/img/profile_logo.jpeg
 email: umutphp@gmail.com
 google_analytics: UA-134229259-1
 home_page_title: Hi, my name is Umut Işık.
-home_page_text: I am a principle developer and currently working as a delivery manager at Sony. 
+home_page_text: I am a software engineer and currently working as a delivery manager at Sony. 
 home_page_description: >- # this means to ignore newlines until "baseurl:"
   I spent 18 years pursuing a career on software development including e-commerce sites, content management systems, product information management systems, news portals, dating sites, learning management systems and corporate multi-layer web applications.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -106,6 +106,10 @@ landing:
       title: Community Contributions
       layout: list
       contents:
+        - title: Kadın Yazılımcı Destekleme Programı as Facilitator
+          description: The main objective of the program is to create new and effective opportunities for female software developers in the male-dominated software industry and to help them to find a place among the exemplary developers in the industry.
+          url: https://github.com/scturkey/WSCEP
+          date: April 6, 2019
         - title: Continuous Integration
           description: I have performed a session about continuous integration and shared my experience with the audience.
           url: https://www.meetup.com/Software-Craftsmanship-Turkey/events/253854621/
