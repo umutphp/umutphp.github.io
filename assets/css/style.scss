@@ -2,3 +2,22 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+hr {
+    border: 0;
+    background: #222;
+    height: 1px;
+    margin: 0 0 20px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
