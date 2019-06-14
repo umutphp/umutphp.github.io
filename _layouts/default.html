@@ -33,6 +33,7 @@
         <hr class="section_border">
         {% for section in site.landing.sections %}
         <div id="section-{{ section.id }}">
+          <br>
           <h3>{{ section.title }}</h3>
           {% if section.description %}
           <p id="section-description-{{ section.id }}">{{ section.description }}</p>
