@@ -30,7 +30,7 @@
         <h1>{{ site.home_page_title }}</h1>
         <h4>{{ site.home_page_text }}</h4>
         <p>{{ site.home_page_description }}</p>
-        <hr>
+        <hr class="section_border">
         {% for section in site.landing.sections %}
         <div id="section-{{ section.id }}">
           <h3>{{ section.title }}</h3>
@@ -73,7 +73,8 @@
           <p id="section-conclusion-{{ section.id }}">{{ section.conclusion }}</p>
           {% endif %}
         </div>
-        <hr>
+        <hr class="section_border">
+        <br />
         {% endfor %}
         <div id="section-open-source-projects">
           <h3>Open Source Projects</h3>
@@ -89,7 +90,7 @@
           {% endfor %}
           </ul>
         </div>
-        <hr>
+        <hr class="section_border">
         <div id="section-contributions">
           <h3>Github Contributions</h3>
           <ul>
@@ -104,7 +105,7 @@
             {% endfor %}
           </ul>
         </p>
-        <hr>
+        <hr class="section_border">
         <p>
           <blockquote>          
           <p>
