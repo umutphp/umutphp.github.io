@@ -97,13 +97,15 @@
           <h3>Github Contributions</h3>
           <ul>
             {% for repository in site.github.public_repositories %}
-            {% if repository.fork %}
+              {% if repository.fork %}
+                {% if repository.name != "hacker-laws-tr" or repository.name != "php-the-right-way" or repository.name != "phpthewrongway" %}
             <li>
               <a href="{{ repository.html_url }}" target="_blank">
                 {{ repository.name }}
               </a>: {{ repository.description }}
             </li>
-            {% endif %}
+                {% endif %}
+              {% endif %}
             {% endfor %}
           </ul>
         </p>
