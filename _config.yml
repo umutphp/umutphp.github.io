@@ -109,6 +109,9 @@ landing:
         - title: PHP Güvenlik El Kitabı (Deprecated)
           description: Founded in January 2005, <a href="http://phpsec.org/" target="_blank">the PHP Security Consortium (PHPSC)</a> is an international group of PHP experts dedicated to promoting secure programming practices within the PHP community. But It is not active for years.
           url: https://phpguvenlik.wordpress.com/
+        - title: Kod Optimizasyon Yöntemleri
+          description: Turkish translation of Code Optimization Methods repository by <a href="https://github.com/foo123" target="_blank">Nikos M.</a>
+          url: https://github.com/foo123/code-optimization-methods#translations
     - id: community-contributions
       title: Community Contributions
       layout: list
