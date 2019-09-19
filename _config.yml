@@ -112,6 +112,9 @@ landing:
         - title: Kod Optimizasyon Yöntemleri
           description: Turkish translation of Code Optimization Methods repository by <a href="https://github.com/foo123" target="_blank">Nikos M.</a>
           url: https://github.com/foo123/code-optimization-methods#translations
+        - title: Arka uç geliştirmede örnek yöntemler
+          description: Turkish translation of document which is a collection of general best practices for backend development by <a href="https://github.com/futurice" target="_blank">Futurice</a>.
+          url: https://github.com/umutphp/backend-best-practices
     - id: community-contributions
       title: Community Contributions
       layout: list
