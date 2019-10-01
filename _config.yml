@@ -118,6 +118,9 @@ landing:
         - title: API Security Checklist
           description: Turkish translation of document which is a checklist of the most important security countermeasures when designing, testing, and releasing your API.
           url: https://github.com/shieldfy/API-Security-Checklist/blob/master/README-tr.md
+        - title: Clean Code For Javascript
+          url: https://github.com/umutphp/clean-code-javascript-tr
+          description: Turkish translation of document containing Clean Code concepts adapted for JavaScript
     - id: community-contributions
       title: Community Contributions
       layout: list
