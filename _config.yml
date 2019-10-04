@@ -121,6 +121,9 @@ landing:
         - title: Clean Code For Javascript
           url: https://github.com/umutphp/clean-code-javascript-tr
           description: Turkish translation of document containing Clean Code concepts adapted for JavaScript
+        - title: HTML Best Practices
+          url: https://github.com/hail2u/html-best-practices/blob/master/README.tr.md
+          description: Turkish translation of document containing guides for writing maintainable and scalable HTML documents
     - id: community-contributions
       title: Community Contributions
       layout: list
