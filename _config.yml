@@ -61,6 +61,10 @@ landing:
       title: Articles
       layout: list
       contents:
+        - title: Escape From Local Maxima
+          description: An article about changing and managing personal skills.
+          url: https://www.linkedin.com/pulse/escape-from-local-maxima-umut-i%C5%9Fik/
+          date: Oct 9, 2019
         - title: Adapting New Joiners To The Team
           description: In this article, I'll try to explain the focus areas (six firsts) that I always consider while creating the plan for adapting the new joiners to the teams.
           url: https://www.linkedin.com/pulse/adapting-new-joiners-team-umut-i%C5%9Fik/
