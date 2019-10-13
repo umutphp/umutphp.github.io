@@ -102,7 +102,7 @@ landing:
       layout: list
       contents:
         - title: Open Source Guides by Github
-          descrition: Open Source Guides are a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project.
+          description: Open Source Guides are a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project.
           url: https://opensource.guide/tr/
         - title: Hacker Laws
           description: Laws, Theories, Principles and Patterns that developers will find useful.
