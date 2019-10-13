@@ -98,7 +98,7 @@
           <ul>
             {% for repository in site.github.public_repositories %}
               {% if repository.fork %}
-                {% if repository.name != "hacker-laws-tr" and repository.name != "php-the-right-way" and repository.name != "phpthewrongway" %}
+                {% if repository.name == "PHP-Var-Dump-Check" or repository.name == "pa11y-ci" or repository.name == "minify" %}
             <li>
               <a href="{{ repository.html_url }}" target="_blank">
                 {{ repository.name }}
