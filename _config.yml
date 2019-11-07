@@ -106,7 +106,7 @@ landing:
           url: https://opensource.guide/tr/
         - title: Hacker Laws
           description: Laws, Theories, Principles and Patterns that developers will find useful.
-          url: https://github.com/dwmkerr/hacker-laws/blob/master/translations/tr.md 
+          url: https://github.com/umutphp/hacker-laws-tr
         - title: PHP - Galat-ı Meşhur (PHP The Wrong Way)
           description: Turkish translation of the website <a href="http://www.phpthewrongway.com/" target="_blank">http://www.phpthewrongway.com/</a> which has been created in an attempt to present a pragmatic view on PHP programming. A view dictated by experience and practical consequence rather than popular trends, theory, or academic dogma.
           url: http://www.phpthewrongway.com/tr/
@@ -135,6 +135,10 @@ landing:
       title: Community Contributions
       layout: list
       contents:
+        - title: How to Contribute to Open Source
+          description: Sosyal ve Teknik Yönleri ile Açık Kaynağa Nasıl Katkı Yapabiliriz?
+          url: https://kommunity.com/software-craftsmanship-turkey/events/sosyal-ve-teknik-yonleri-ile-acik-kaynaga-nasil-katki-yapabiliriz
+          date: November 6, 2019
         - title: Kadın Yazılımcı Destekleme Programı as Facilitator
           description: The main objective of the program is to create new and effective opportunities for female software developers in the male-dominated software industry and to help them to find a place among the exemplary developers in the industry.
           url: https://github.com/scturkey/WSCEP
