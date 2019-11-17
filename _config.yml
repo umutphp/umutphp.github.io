@@ -135,6 +135,10 @@ landing:
       title: Community Contributions
       layout: list
       contents:
+        - title: Global Day of Coderetreat (GDCR19) Facilitator
+          description: Coderetreats are run by volunteers who want to help out their local developer community. 
+          url: https://www.coderetreat.org/
+          date: November 16, 2019
         - title: How to Contribute to Open Source
           description: Sosyal ve Teknik Yönleri ile Açık Kaynağa Nasıl Katkı Yapabiliriz?
           url: https://kommunity.com/software-craftsmanship-turkey/events/sosyal-ve-teknik-yonleri-ile-acik-kaynaga-nasil-katki-yapabiliriz
