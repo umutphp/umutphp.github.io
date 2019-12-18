@@ -81,7 +81,7 @@
           <h3>Open Source Projects</h3>
           <ul>
           {% for repository in site.github.public_repositories %}
-            {% if repository.name == "visualize-gitlabci" or repository.name == "wp-vulnerability-check" or repository.name == "php-docker-images-for-ci" or repository.name == "PHPCS_Coercive_Standards" or repository.name == "gitlabci-npm-audit-script" %}
+            {% if repository.name == "checker" or  repository.name == "visualize-gitlabci" or repository.name == "wp-vulnerability-check" or repository.name == "php-docker-images-for-ci" or repository.name == "PHPCS_Coercive_Standards" or repository.name == "gitlabci-npm-audit-script" %}
             <li>
               <a href="{{ repository.html_url }}" target="_blank">
                 {{ repository.name }}
