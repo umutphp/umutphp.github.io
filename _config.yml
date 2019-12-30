@@ -135,12 +135,20 @@ landing:
       title: Community Contributions
       layout: list
       contents:
+        - title: CI For PHP Projects
+          description: A talk about setting up CI in PHP projects. 
+          url: https://kommunity.com/istanbulphp/events/php-projelerinde-ci-uygulama
+          date: December 27, 2019
+        - title: How to Contribute to Open Source At Kocaeli University
+          description: How can we contribute to open source with its social and technical aspects? 
+          url: http://bilisim.kocaeli.edu.tr/etkinlikler.php
+          date: December 10, 2019
         - title: Global Day of Coderetreat (GDCR19) Facilitator
           description: Coderetreats are run by volunteers who want to help out their local developer community. 
           url: https://www.coderetreat.org/
           date: November 16, 2019
         - title: How to Contribute to Open Source
-          description: Sosyal ve Teknik Yönleri ile Açık Kaynağa Nasıl Katkı Yapabiliriz?
+          description: How can we contribute to open source with its social and technical aspects?
           url: https://kommunity.com/software-craftsmanship-turkey/events/sosyal-ve-teknik-yonleri-ile-acik-kaynaga-nasil-katki-yapabiliriz
           date: November 6, 2019
         - title: Kadın Yazılımcı Destekleme Programı as Facilitator
