@@ -113,6 +113,9 @@ landing:
         - title: "PHP: Usulüne Uygun"
           description: "Turkish translation of <a href='https://www.phptherightway.com' target='_blank'>PHP: The Right Way</a> which is an easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative tutorials around the Web. The translation project is owned by <a href='https://kulekci.net/' target='_blank'>Haydar Külekçi</a> and I am an humble contributor."
           url: https://kulekci.net/php-the-right-way
+        - title: "Contributor Covenant Translations"
+          description: "The Turkish translation of the most popular code of conduct for open source projects with over 100,000 adoptions."
+          url: https://www.contributor-covenant.org/translations/
         - title: "Open source promotion cheat sheet"
           description: "This cheat sheet summarizes important steps you should follow to promote your open source project in the best conditions."
           url: https://github.com/zenika-open-source/promote-open-source-project/blob/master/README-tr.md
