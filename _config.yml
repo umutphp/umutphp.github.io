@@ -22,7 +22,7 @@ google_analytics: UA-134229259-1
 home_page_title: Hi, my name is Umut Işık.
 home_page_text: I am a software engineer and currently working as a delivery manager at Sony. 
 home_page_description: >- # this means to ignore newlines until "baseurl:"
-  I spent 18 years pursuing a career on software development including e-commerce sites, content management systems, product information management systems, news portals, dating sites, learning management systems and corporate multi-layer web applications.
+   I am a software engineer and I spent 18 years pursuing a career in softwares developmentincluding e-commerce sites, content management systems, product information managementsystems, translation process/memory management systems, news portals, dating sites, learningmanagement systems and corporate multi-layer web applications.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://umuts.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
