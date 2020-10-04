@@ -36,7 +36,10 @@ landing:
       title: Experience
       layout: table
       contents:
-        - description: "Nov 2018 - Present, at Sony"
+        - description: "Oct 2020 - Present, at SmartupNetwork"
+          title: "CTO"
+          url: https://www.linkedin.com/in/isikumut/
+        - description: "Nov 2018 - Sep 2020, at Sony"
           title: "Delivery Manager"
           url: https://www.linkedin.com/in/isikumut/
         - description: "Apr 2016 – Nov 2018, at Sony"
