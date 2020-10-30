@@ -147,6 +147,10 @@ landing:
       title: Community Contributions
       layout: list
       contents:
+        - title: Hacktoberfest Ankara
+          description: A talk about open source and how to contribute. It is in Turkish and can be watched on <a href="https://www.youtube.com/watch?v=NXFGA0H9bLA">Youtube</a>.
+          url: https://hackathonturkiye.com/etkinlik/hacktoberfest-ankara
+          date: October 29, 2020
         - title: CI For PHP Projects
           description: A talk about setting up CI in PHP projects. 
           url: https://kommunity.com/istanbulphp/events/php-projelerinde-ci-uygulama
