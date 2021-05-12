@@ -64,6 +64,10 @@ landing:
       title: Articles
       layout: list
       contents:
+        - title: 5 Stages of Developing A Tech Team For Your MVP
+          description: An article about technology team creation for startups.
+          url: https://smartup.network/blog/5-stages-of-developing-a-tech-team-for-your-mvp
+          date: Nov 9, 2020
         - title: Escape From Local Maxima
           description: An article about changing and managing personal skills.
           url: https://www.linkedin.com/pulse/escape-from-local-maxima-umut-i%C5%9Fik/
