@@ -116,14 +116,12 @@
           <h3>Github Contributions</h3>
           <ul>
             {% for repository in site.github.public_repositories %}
-              {% if repository.fork %}
                 {% if repository.name == "docker-shell" or repository.name == "PHP-Var-Dump-Check" or repository.name == "pa11y-ci" or repository.name == "minify" %}
             <li>
               <a href="{{ repository.html_url }}" target="_blank">
                 {{ repository.name }}
               </a>: {{ repository.description }}
             </li>
-                {% endif %}
               {% endif %}
             {% endfor %}
           </ul>
