@@ -151,6 +151,10 @@ landing:
       title: Community Contributions
       layout: list
       contents:
+        - title: İstanbul PHP User Group
+          description: A talk about open source and how to contribute. It is in Turkish and can be watched on <a href="https://kommunity.com/talks/acik-kaynaga-katkida-bulunmak-0649d61a/" target="_blank">Kommunity</a>.
+          url: https://kommunity.com/istanbulphp/events/php-202202-3603b370
+          date: March 24, 2022
         - title: Hacktoberfest Ankara
           description: A talk about open source and how to contribute. It is in Turkish and can be watched on <a href="https://www.youtube.com/watch?v=NXFGA0H9bLA" target="_blank">Youtube</a>.
           url: https://hackathonturkiye.com/etkinlik/hacktoberfest-ankara
